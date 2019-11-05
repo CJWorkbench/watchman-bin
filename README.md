@@ -6,7 +6,7 @@ binary.
 In a Dockerfile that should have a watchman binary:
 
 ```Dockerfile
-FROM workbenchdata/watchman:v0.0.1-debian-slim as watchman
+FROM workbenchdata/watchman:v0.0.1-buster-slim as watchman
 
 FROM debian:buster-slim AS my-image
 
